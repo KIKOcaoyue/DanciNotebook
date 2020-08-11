@@ -1,0 +1,9 @@
+C:\Users\63248\source\repos\DanciNotebook\DanciNotebook\bin\Debug\DanciNotebook.exe.config
+C:\Users\63248\source\repos\DanciNotebook\DanciNotebook\bin\Debug\DanciNotebook.exe
+C:\Users\63248\source\repos\DanciNotebook\DanciNotebook\bin\Debug\DanciNotebook.pdb
+C:\Users\63248\source\repos\DanciNotebook\DanciNotebook\obj\Debug\DanciNotebook.csprojAssemblyReference.cache
+C:\Users\63248\source\repos\DanciNotebook\DanciNotebook\obj\Debug\DanciNotebook.Form1.resources
+C:\Users\63248\source\repos\DanciNotebook\DanciNotebook\obj\Debug\DanciNotebook.Properties.Resources.resources
+C:\Users\63248\source\repos\DanciNotebook\DanciNotebook\obj\Debug\DanciNotebook.csproj.GenerateResource.cache
+C:\Users\63248\source\repos\DanciNotebook\DanciNotebook\obj\Debug\DanciNotebook.exe
+C:\Users\63248\source\repos\DanciNotebook\DanciNotebook\obj\Debug\DanciNotebook.pdb
