@@ -1,6 +1,6 @@
 ﻿namespace DanciNotebook
 {
-    partial class Form1
+    partial class DanciNotebook
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DanciNotebook));
             this.word = new System.Windows.Forms.Label();
             this.translate = new System.Windows.Forms.Label();
             this.example = new System.Windows.Forms.Label();
@@ -49,6 +50,7 @@
             // word
             // 
             this.word.AutoSize = true;
+            this.word.BackColor = System.Drawing.Color.Transparent;
             this.word.Location = new System.Drawing.Point(366, 75);
             this.word.Name = "word";
             this.word.Size = new System.Drawing.Size(55, 15);
@@ -58,6 +60,7 @@
             // translate
             // 
             this.translate.AutoSize = true;
+            this.translate.BackColor = System.Drawing.Color.Transparent;
             this.translate.Location = new System.Drawing.Point(366, 137);
             this.translate.Name = "translate";
             this.translate.Size = new System.Drawing.Size(55, 15);
@@ -67,6 +70,7 @@
             // example
             // 
             this.example.AutoSize = true;
+            this.example.BackColor = System.Drawing.Color.Transparent;
             this.example.Location = new System.Drawing.Point(366, 201);
             this.example.Name = "example";
             this.example.Size = new System.Drawing.Size(55, 15);
@@ -96,6 +100,7 @@
             // Label_1
             // 
             this.Label_1.AutoSize = true;
+            this.Label_1.BackColor = System.Drawing.Color.Transparent;
             this.Label_1.Location = new System.Drawing.Point(47, 75);
             this.Label_1.Name = "Label_1";
             this.Label_1.Size = new System.Drawing.Size(143, 15);
@@ -105,6 +110,7 @@
             // grade
             // 
             this.grade.AutoSize = true;
+            this.grade.BackColor = System.Drawing.Color.Transparent;
             this.grade.Location = new System.Drawing.Point(187, 75);
             this.grade.Name = "grade";
             this.grade.Size = new System.Drawing.Size(55, 15);
@@ -145,15 +151,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(47, 305);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Stencil", 10.28571F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(46, 300);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 15);
+            this.label1.Size = new System.Drawing.Size(63, 20);
             this.label1.TabIndex = 11;
             this.label1.Text = "新单词";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(171, 305);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(37, 15);
@@ -163,6 +174,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(294, 305);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 15);
@@ -189,10 +202,11 @@
             this.showbtn.UseVisualStyleBackColor = true;
             this.showbtn.Click += new System.EventHandler(this.showbtn_Click);
             // 
-            // Form1
+            // DanciNotebook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.showbtn);
             this.Controls.Add(this.savebtn);
@@ -210,8 +224,9 @@
             this.Controls.Add(this.example);
             this.Controls.Add(this.translate);
             this.Controls.Add(this.word);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "DanciNotebook";
+            this.Text = "DanciNotebook";
             this.ResumeLayout(false);
             this.PerformLayout();
 

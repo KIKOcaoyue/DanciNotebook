@@ -11,7 +11,7 @@ using System.IO;
 
 namespace DanciNotebook
 {
-    public partial class Form1 : Form
+    public partial class DanciNotebook : Form
     {
         public class Word
         {
@@ -105,7 +105,7 @@ namespace DanciNotebook
             }
             return -1;
         }
-        public Form1()
+        public DanciNotebook()
         {
             InitializeComponent();
             try
